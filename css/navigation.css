@@ -1,0 +1,13 @@
+.navigation {    
+    list-style-type: none;    
+}
+
+.navigation__link {
+    color: rgb(2, 19, 2);
+    text-decoration: none;
+}   
+
+.navigation__link:hover {
+    color: rgb(138, 21, 21);
+    border-bottom: 1px solid rgb(138, 21, 21);
+}

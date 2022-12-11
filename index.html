@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O mnie - Adam Ledwoń</title>
+    <script defer src="js/button__function.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body body__light">
+    <header>
+        <h1>Adam Ledwoń</h1>
+        <img width="250" height="400" class="header__image" src="https://i.postimg.cc/3xjrsHTq/ja.jpg"
+            alt="Zdjęcie Adam Ledwoń">
+    </header>
+    <button class="js-button">
+        Włącz <span class="js-buttonFunction">ciemny</span> motyw</button>
+    <nav>
+        <ul class="navigation">
+            <li><a class="navigation__link" href="#oMnie">pare slow o mnie</a></li>
+            <li><a class="navigation__link" href="#mojeFilmy">tabela z ulubionymi filmami/serialami</a>
+            </li>
+            <li><a class="navigation__link" href="#podroz">podroz na rysy</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <h2 id="oMnie">Parę słów o mnie</h2>
+        <p>Mam 33 lata, mieszkam na Górnym Śląsku a konkretnie w Tychach. Mieszkałem wcześniej w Katowicach, Czeladzi,
+            no i miałem jeszcze krótkie epizody z Londynem i Siemianowicami Śląskimi.</p>
+        <p>Posiadam dwóch braci - rok i dwa lata młodszego, jestem tym najstarszym z całej trójki. Mam również córkę
+            Amelkę.</p>
+        <p>Pracuję obecnie w Izbie Administracji Skarbowej gdzie się kompletnie wypaliłem zawodowo i postanowiłem coś z
+            tym zrobić<b> - "Coś" - ten kurs ;)</b> Mam nadzieję że uda mi się dostać do branży IT, gdzie od zawsze
+            miałem zajawkę na sprzęt i oprogramowania komputerowe. Wcześniej pracowałem w sklepie m.in. w sklepie
+            internetowym i np. jako skarbnik.</p>
+        <p>Poza sprzętem i opraogramowaniem komputerowym, moją pasją jest piłka nożna, siłownia, muzyka, dobry film,
+            dobre gry planszowe i wędrówki górskie. Więcej o niektórych z moich zainteresowaniach można przeczytać
+            poniżej. </p>
+    </main>
+    <article>
+        <h2 class="article">Spędzanie czasu w najmniej produktywny sposób</h2>
+        <p class="article">Chyba najmniej wymagającym, spędzaniem wolnego czasu (którego niestety nie mam za
+            wiele),
+            jest spędzanie go przed telewizorem przy dobrym filmie lub serialu. Postanowiłem tu podzielić się moimi
+            takimi perełkami, które na przestrzeni lat zrobiły na mnie chyba największe wrażenie.</p>
+        <table id="mojeFilmy" class="table">
+            <caption class="table__caption">Tabela moich ulubionych filmów i seriali</caption>
+            <tr>
+                <th class="table__cells table__cellsHeader" colspan="5" scope="col">Filmy</th>
+            </tr>
+            <tr>
+                <th class="table__cells table__rowsHeader" scope="row">Stare</th>
+                <td class="table__cells"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/film/Gladiator-2000-936">Gladiator</a></td>
+                <td class="table__cells"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/film/Matrix-1999-628">Matrix</a></td>
+                <td class="table__cells"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/film/Interstellar-2014-375629">
+                        Interstellar</a></td>
+                <td class="table__cells"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/film/Mroczny+Rycerz-2008-236351">Mroczny
+                        Rycerz</a></td>
+            </tr>
+            <tr>
+                <th class="table__cells table__rowsHeader" scope="row">Nowe</th>
+                <td class="table__cells" colspan="2"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/film/Batman-2022-626318">The Batman</a>
+                </td>
+                <td class="table__cells" colspan="2"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/film/Diuna-2021-469476">Diuna</a></td>
+            </tr>
+            <tr>
+                <th class="table__cells table__cellsHeader" colspan="5" scope="col">Seriale</th>
+            </tr>
+            <tr>
+                <td class="table__cells"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/serial/Skazany+na+%C5%9Bmier%C4%87-2005-236096">Skazany na
+                        śmierć</a></td>
+                <td class="table__cells"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/serial/Breaking+Bad-2008-430668">Breaking
+                        Bad</a></td>
+                <td class="table__cells"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/serial/Wikingowie-2013-659055">
+                        Wikingowie</a></td>
+                <td class="table__cells"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/serial/Dark-2017-771383">Dark</a></td>
+                <td class="table__cells"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/serial/Czarnobyl-2019-799827">Czarnobyl</a>
+                </td>
+            <tr>
+                <td class="table__cells"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/serial/Gambit+kr%C3%B3lowej-2020-840024">Gambit
+                        Królowej</a></td>
+                <td class="table__cells"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/serial/Dom+z+papieru-2017-792826">Dom z
+                        papieru</a></td>
+                <td class="table__cells"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/serial/Stranger+Things-2016-750359">
+                        Stranger Things</a></td>
+                <td class="table__cells"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/serial/Sherlock-2010-528992">Sherlock</a></td>
+                <td class="table__cells"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/serial/Narcos-2015-680486">Narcos</a>
+                </td>
+            <tr>
+                <th class="table__cells table__cellsHeader" colspan="5" scope="col">Anime</th>
+            </tr>
+            <tr>
+                <th class="table__cells table__rowsHeader" scope="row">Od zawsze na zawsze ;)</th>
+                <td class="table__cells" colspan="4"><a class="table__link" rel="noreferrer noopener"
+                        title="Otwiera filmweb z opisem w nowej karcie" target="_blank"
+                        href="https://www.filmweb.pl/serial/Dragon+Ball+Z-1989-94339">Dragon Ball - wszystkie
+                        serie</a></td>
+            </tr>
+        </table>
+    </article>
+    <section id="podroz" class="mountain">
+        <h2>Jedną z moich pasji są góry, tu opiszę moją drogę na Rysy</h2>
+        <img width="450" height="300" class="section__image"
+            src="https://i.postimg.cc/MHkpkZvh/rysy-Szczyt-ZDaleka.jpg" alt="Szczyt Rysy z daleka">
+        <h3>Rysy, trochę teorii</h3>
+        <p>Góra położona na granicy polsko-słowackiej, w Tatrach Wysokich (jednej z części Tatr). <strong>Ma trzy
+                wierzchołki,</strong> z których najwyższy jest środkowy (2501 m nad poziomem morza), znajdujący się
+            w całości na terytorium Słowacji.<b> Wierzchołek północno-zachodni, przez który biegnie granica, stanowi
+                najwyżej położony punkt w Polski</b> (według większości najbardziej wiarygodnych źródeł 2499 m i
+            należy do Korony Europy.</p>
+        <h3>Początek wędrówki i Morskie Oko</h3>
+        <img width="450" height="300" class="section__image" src="https://i.postimg.cc/kXTPKX7q/morskie-Oko.jpg"
+            alt="Morskie Oko">
+        <p>Początek wędrówki rozpoczął się już w łóżku, kiedy o godzinie 2 w nocy zaczął dzwonić budzik, zapewne ja
+            jak i każdy myślał <i>"i po co ja się na to pisałem?"</i>. Po prawie dwu godzinnej jeździe docieramy w
+            końcu na parking na Łysej Polanie, skąd około godziny 5 zaczynamy naszą podróż. W sumie do Morskiego Oka
+            nic się nie dzieje, idzie się po asfaltowej drodze bez większych problemów.<strong> Samo Morskie Oko to
+                drugie pod względem powierzchni i objętości jezioro w Tartrach,</strong> położone w Dolinie Rybiego
+            Potoku u stóp Mięguszowieckich Szczytów, na wysokości 1395 m n.p.m.</p>
+        <h3>Wejście na Czarny Staw</h3>
+        <img width="450" height="300" class="section__image" src="https://i.postimg.cc/sfJkCDQ7/wodospad.jpg"
+            alt="Wodospad między Morskim Okiem a Czarnym Stawem">
+        <p> Po krótkiej przerwie na Morskim Oku ruszyliśmy dalej w stronę szczytu, nastepnym przystankiem miał być
+            Czarny Staw. Po drodze, jeszcze przez przewyższeniami można zobaczyć malowniczy, mały "wodospad". A
+            dalej już tylko droga w górę. Nasz cel <b>Czarny staw - tatrzańskie jezioro położone w kotle
+                polodowcowym w Dolinie Rybiego Potoku.</b> Cienie rzucane przez szczyty oraz występujące w wodzie
+            sinica Pleurocapsa polonica i Pleurocapsaminor nadają jezioru ciemny, nieomal czarny koilor, co ma
+            odzwierciedlenie w jego nazwie. <b>Jest to najdalej wysunietę na południe jezioro w Polsce.</b> Nasz cel
+            został osiągnietypo niecałej godzinie wspinaczki po kamiennej i w miarę już stromej trasie</p>
+        <img width="450" height="300" class="section__image" src="https://i.postimg.cc/sD6b16J2/czarny-Staw.jpg"
+            alt="Czarny Staw">
+        <h3>Bula pod Rysami</h3>
+        <p>Po kolejnej krótkiej przerwie ruszyliśmy dalej. Tutaj już robi się trochę bardziej stromo, a
+            podejścieskłada się głównie z kamieni i głazów. Tutaj już widać u niektórychzmęczenie i zrezygnowanie.
+            Widokia w szczególności Morskie Oki i Czarny Staw za plecami wynagradzają trudy wędrówki. Po około
+            następnych dwóch godzinach wspinaczki przez rumowiska skalne docieramy do buli. <em> Co prawda szlak na
+                nią nie prowadzi ale jest to chyba ostatnie większe płaskie miejsce w okolicy.</em> Czas na ostatnią
+            dłuższą przerwę przez zdobywaniem szczytu.</p>
+        <img width="450" height="300" class="section__image"
+            src="https://i.postimg.cc/QdvPJFwG/morskie-Oko-ICzarby-Staw.jpg" alt="Morskie Oko i Czarny Staw">
+        <h3>Zdobywamy szczyt</h3>
+        <p>Po przerwie i paru minutach marszu ukazują się pierwsze łańcuchy, <strong>łańcuchy, które od tego momentu
+                będą nam towarzyszyć co chwilę aż do samego szczytu.</strong> <em>Tutaj trzeba uważać jak stawia się
+                stopę,</em> podczas wchodzenia widzieliśmy osobę, która co prawda nie wiemy w jaki sposób, jednak
+            uszkodziła nogę i oczekiwała na pomoc ratowników. <i>Wejście jest skalne ale moim zdaniem dobrze
+                zabezpieczone.</i> Najgorsza część wspinaczki dla osób mających problem z wysokością lub tzw. lęk
+            przestrzenny jest wąski trawers prawie na samym szczycie. Tu widać było że dużo osób ma obawy i czuje
+            lęk, jednak tu również z pomocą przychodzą łańcuchy. Po tym odcinku można powiedzieć że wystarczy wejść
+            jeszcze kilkanaście metrów w górę obchodząc sam szczyt i na niego wejść.</p>
+        <img width="450" height="300" class="section__image" src="https://i.postimg.cc/jjVgJGnR/szczyt.jpg"
+            alt="Szczyt">
+    </section>
+    <br>
+    <footer>
+        ©Copyright 2022 by Adam Ledwoń. All rights reversed.
+    </footer>
+</body>
+
+</html>

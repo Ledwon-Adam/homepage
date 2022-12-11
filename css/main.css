@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.main {
+    font: italic 16px/1.7 "Lato", sans-serif;
+    border: 2px solid darkgrey;
+    outline: 2px solid gray;
+    box-shadow: 5px -5px 15px 3px #B1B1B5;
+    padding: 5%;
+}
