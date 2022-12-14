@@ -2,7 +2,7 @@
 
 ![Ledwoń Adam](images/my/ja450px.jpg)
 
-##Demo
+## Demo
 https://ledwon-adam.github.io/homepage/
 
-##Parę słów o moich zainteresowaniach.
+## Parę słów o moich zainteresowaniach
