@@ -5,13 +5,14 @@
     
     const backgroundToogle = () => {
         let body = document.querySelector(".body__light");
+        let button__functionName = document.querySelector(".js-buttonFunction");
         body.classList.toggle("body__dark");
         if (body.classList.contains("body__dark")) {
-        js-buttonFunction.innerText = "jasny";
+            button__functionName.innerText = "jasny";
         } else {
-        js-buttonFunction.innerText = "ciemny";
+            button__functionName.innerText = "ciemny";
         }
-    };
+    }
 
     const init = () => {
         let button = document.querySelector(".js-button");
