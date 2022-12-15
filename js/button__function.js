@@ -4,8 +4,8 @@
     }
     
     const backgroundToogle = () => {
-        let body = document.querySelector(".body__light");
-        let button__functionName = document.querySelector(".js-buttonFunction");
+        const body = document.querySelector(".body__light");
+        const button__functionName = document.querySelector(".js-buttonFunction");
         body.classList.toggle("body__dark");
         if (body.classList.contains("body__dark")) {
             button__functionName.innerText = "jasny";
@@ -15,7 +15,7 @@
     }
 
     const init = () => {
-        let button = document.querySelector(".js-button");
+        const button = document.querySelector(".js-button");
         button.addEventListener("click", backgroundToogle);
         welcome();
     }
