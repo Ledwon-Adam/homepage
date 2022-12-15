@@ -6,3 +6,8 @@
 https://ledwon-adam.github.io/homepage/
 
 ## A few words about my interests
+
+Technologies used for the project;
+- HTML 
+- Java script
+- CSS
