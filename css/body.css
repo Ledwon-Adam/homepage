@@ -2,16 +2,15 @@
     font: 16px/1.5 "Lato", sans-serif;
     max-width: 1000px;
     margin: 0 auto;
-    overflow-x: auto;
     text-align: center;
 }
 
-.body__light {
+.body--light {
     color: black;
     background-color: white;
 }
 
-.body__dark {
+.body--dark {
     color: white;
     background-color: rgb(77, 76, 76);
 }

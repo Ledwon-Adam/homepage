@@ -18,7 +18,7 @@
     padding: 20px;
 }
 
-.table__rowsHeader {
+.table--rowsHeader {
     background-color: rgba(184, 184, 184, 0.918);
 }
 

@@ -4,10 +4,10 @@
     }
     
     const backgroundToogle = () => {
-        const body = document.querySelector(".body__light");
+        const body = document.querySelector(".body--light");
         const button__functionName = document.querySelector(".js-buttonFunction");
-        body.classList.toggle("body__dark");
-        if (body.classList.contains("body__dark")) {
+        body.classList.toggle("body--dark");
+        if (body.classList.contains("body--dark")) {
             button__functionName.innerText = "jasny";
         } else {
             button__functionName.innerText = "ciemny";
@@ -15,7 +15,7 @@
     }
 
     const init = () => {
-        const button = document.querySelector(".js-button");
+        const button = document.querySelector(".js-buttonText");
         button.addEventListener("click", backgroundToogle);
         welcome();
     }
